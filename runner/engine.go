@@ -13,7 +13,7 @@ import (
 	"github.com/fsnotify/fsnotify"
 )
 
-// Engine ...
+// Engine. ...
 type Engine struct {
 	config    *config
 	logger    *logger
