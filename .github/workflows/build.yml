@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: check out code
         uses: actions/checkout@v2
-        
+       \\break the build
       - name: setup Go 1.17
         id: go
         uses: actions/setup-go@v2
@@ -31,3 +31,6 @@ jobs:
              --detect.project.name=$GITHUB_REPOSITORY \
              --detect.project.version.name=$GITHUB_REF_NAME \
              --detect.blackduck.signature.scanner.snippet.matching=SNIPPET_MATCHING'
+             --detect.policy.check.fail.on.severities=BLOCKER
+             
+           
