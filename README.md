@@ -5,7 +5,7 @@
 ![air](docs/air.png)
 
 ## Motivation
-
+ 
 When I get started with developing websites in Go and [gin](https://github.com/gin-gonic/gin) framework, it's a pity
 that gin lacks live-reloading function. In fact, I tried [fresh](https://github.com/pilu/fresh) and it seems not much
 flexible, so I intended to rewrite it in a better way. Finally, Air's born.
