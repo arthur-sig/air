@@ -28,7 +28,6 @@ func helpMessage() {
 	flag.PrintDefaults()
 }
 
-
 func init() {
 	flag.Usage = helpMessage
 	flag.StringVar(&cfgPath, "c", "", "config path")
