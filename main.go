@@ -18,6 +18,7 @@ var (
 	runArgs     []string
 )
 
+
 func helpMessage() {
 	fmt.Fprintf(flag.CommandLine.Output(), "Usage of %s:\n\n", os.Args[0])
 	fmt.Printf("If no command is provided %s will start the runner with the provided flags\n\n", os.Args[0])
