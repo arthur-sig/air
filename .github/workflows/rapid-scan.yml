@@ -1,7 +1,6 @@
 name: Demo - Black Duck Rapid Scan
 
 on:
-  push:
   pull_request:
     branches: [ main ]
 
