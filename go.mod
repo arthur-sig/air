@@ -8,6 +8,7 @@ require (
 	github.com/imdario/mergo v0.3.12
 	github.com/pelletier/go-toml v1.8.1
 	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
+	github.com/agnivade/levenshtein v1.1.1 // indirect
 )
 
 require github.com/pkg/errors v0.9.1
