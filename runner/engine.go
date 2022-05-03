@@ -36,7 +36,7 @@ type Engine struct {
 	ll sync.Mutex // lock for logger
 }
 
-// NewEngine ...
+// NewEngine. ...
 func NewEngine(cfgPath string, debugMode bool) (*Engine, error) {
 	var err error
 	cfg, err := initConfig(cfgPath)
