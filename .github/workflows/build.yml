@@ -30,7 +30,6 @@ jobs:
              --blackduck.api.token=$BLACKDUCK_API_TOKEN \
              --detect.project.name=$GITHUB_REPOSITORY \
              --detect.project.version.name=$GITHUB_REF_NAME \
-             --detect.blackduck.signature.scanner.snippet.matching=SNIPPET_MATCHING \
-             --detect.policy.check.fail.on.severities=BLOCKER'
+             --detect.blackduck.signature.scanner.snippet.matching=SNIPPET_MATCHING'
              
            
