@@ -1,4 +1,4 @@
-FROM golang:1.17
+FROM golang:1.21.7
 
 MAINTAINER Rick Yu <cosmtrek@gmail.com>
 
